@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.10.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.rest-assured:rest-assured:4.4.0' // Please check for the latest version
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.0'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    testImplementation 'org.assertj:assertj-core:3.22.0'
+    implementation 'io.qameta.allure:allure-junit5:2.17.3'
+    implementation 'io.qameta.allure:allure-rest-assured:2.17.3'
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+
+    // AspectJ
+    runtimeOnly 'org.aspectj:aspectjweaver:1.9.7'
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty 'allure.results.directory', "${buildDir}/allure-results"
+    systemProperty 'allure.version', '2.15.0'
+    systemProperty 'aspectj.version', '1.9.7'
+    systemProperty 'listener', 'io.qameta.allure.junit5.AllureJunit5'
+}

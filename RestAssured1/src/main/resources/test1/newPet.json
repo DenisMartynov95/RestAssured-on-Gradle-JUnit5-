@@ -1,0 +1,26 @@
+{
+  "id": 777,
+  "category": {
+    "id": 1,
+    "name": "Боббик"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://oir.mobi/uploads/posts/2021-04/1619786024_1-oir_mobi-p-border-kolli-rizhii-zhivotnie-krasivo-foto-1.jpg"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Собака"
+    },
+    {
+      "id" : 2,
+      "name" : "Дворняга"
+    },
+    {
+      "id" : 3,
+      "name" : "Любит грызть кости"
+    }
+  ],
+  "status": "available"
+}

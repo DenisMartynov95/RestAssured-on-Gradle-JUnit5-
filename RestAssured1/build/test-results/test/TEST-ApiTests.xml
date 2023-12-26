@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApiTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-26T14:18:48" hostname="JEN" time="6.071">
+  <properties/>
+  <testcase name="Тест №1: Добавление питомца" classname="ApiTests" time="3.731"/>
+  <testcase name="Тест №2: Проверка того, что питомец был создан" classname="ApiTests" time="0.81"/>
+  <testcase name="Тест №3: Обновить инфу по питомцу" classname="ApiTests" time="0.744"/>
+  <testcase name="Тест №4: Проверка того, что инфа у питомца была обновлена" classname="ApiTests" time="0.775"/>
+  <system-out><![CDATA[Тест №1 прошел успешно
+Тест №2 прошел успешно
+Тест №3 прошел успешно
+Измененные данные: "Бобббббиик Псина sold"
+Тест №4 прошел успешно
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

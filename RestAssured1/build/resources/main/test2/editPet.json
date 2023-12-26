@@ -1,0 +1,18 @@
+{
+  "id": 777,
+  "category": {
+    "id": 1,
+    "name": "Собачка"
+  },
+  "name": "Бобббббиик",
+  "photoUrls": [
+    "https://yandex.ru/images/search?text=собаки&img_url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F27%2F38%2F51%2F273851ad267fc878996263d4b458db88.jpg&pos=3&rpt=simage&stype=image&lr=20020&parent-reqid=1703591119991757-4219709733536297842-balancer-l7leveler-kubr-yp-vla-148-BAL-8383&source=serp"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Псина"
+    }
+  ],
+  "status": "sold"
+}
